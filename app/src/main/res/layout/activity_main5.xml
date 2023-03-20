@@ -14,23 +14,26 @@
         android:layout_marginTop="@dimen/_15sdp"/>
 
     <TextView
-        android:layout_width="match_parent"
+        android:layout_width="@dimen/_200sdp"
         android:layout_height="wrap_content"
-        android:text="Discover the perfect
- balance of harmony and
-comfort"
-        android:textSize="@dimen/_20sdp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="Let’s discover the
+ world with us"
         android:textColor="@color/black"
-        android:textStyle="bold"
-        android:gravity="center"/>
+        android:textSize="@dimen/_20sdp"
+        android:textStyle="bold" />
 
     <TextView
-        android:layout_width="match_parent"
+        android:layout_width="@dimen/_250sdp"
         android:layout_height="wrap_content"
         android:gravity="center"
-        android:text="Stay once , carry memories forever."
+        android:text="We live for vactioner and traveler
+who love a good deal, fun, and
+adventure."
+        android:layout_gravity="center"
         android:textColor="@color/black"
-        android:layout_margin="@dimen/_15sdp"
+        android:layout_marginTop="@dimen/_3sdp"
         android:textSize="@dimen/_16sdp"/>
 
     <ImageView
@@ -39,7 +42,7 @@ comfort"
         android:layout_height="wrap_content"
         android:src="@drawable/cir4"
         android:layout_gravity="center"
-        android:layout_marginTop="@dimen/_15sdp"
+        android:layout_marginTop="@dimen/_10sdp"
         android:layout_marginLeft="@dimen/_20sdp"/>
 
     <TextView
@@ -48,8 +51,7 @@ comfort"
         android:text="S T A R T"
         android:layout_gravity="center"
         android:textSize="@dimen/_15sdp"
-        android:layout_marginLeft="@dimen/_40sdp"
-        android:layout_marginTop="@dimen/_2sdp"/>
+        android:layout_marginLeft="@dimen/_40sdp"/>
 
 
 </LinearLayout>
