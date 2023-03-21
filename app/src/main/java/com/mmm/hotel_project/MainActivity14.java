@@ -8,25 +8,20 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
 
-public class MainActivity10 extends AppCompatActivity {
-    TextView txtsign4;
-
+public class MainActivity14 extends AppCompatActivity {
+    TextView txtcon;
     @SuppressLint("MissingInflatedId")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main10);
+        setContentView(R.layout.activity_main14);
 
-        txtsign4 = findViewById(R.id.txtsign4);
-
-        txtsign4.setOnClickListener(new View.OnClickListener() {
+        txtcon = findViewById(R.id.txtcon2);
+        txtcon.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-
-                Intent intent = new Intent(MainActivity10.this,MainActivity11.class);
+                Intent intent = new Intent(MainActivity14.this,MainActivity15.class);
                 startActivity(intent);
-
-
             }
         });
     }

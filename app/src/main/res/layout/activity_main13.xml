@@ -5,7 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".MainActivity11">
+    tools:context=".MainActivity13">
+
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -38,7 +39,7 @@
         android:layout_width="@dimen/_150sdp"
         android:layout_height="@dimen/_150sdp"
         android:layout_gravity="center"
-        android:src="@drawable/lock2"
+        android:src="@drawable/verify2"
         android:layout_margin="@dimen/_10sdp"/>
 
 
@@ -46,8 +47,7 @@
     <TextView
         android:layout_width="@dimen/_270sdp"
         android:layout_height="wrap_content"
-        android:text="Select which contact details should we use to reset
-your password"
+        android:text="Create Your New Password "
         android:textColor="@color/black"
         android:textSize="@dimen/_13sdp"
         android:layout_marginLeft="@dimen/_10sdp"/>
@@ -56,7 +56,7 @@ your password"
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="@dimen/_80sdp"
+        android:layout_height="@dimen/_50sdp"
         android:layout_marginTop="@dimen/_20sdp"
         android:padding="@dimen/_10sdp"
         android:layout_marginLeft="@dimen/_10sdp"
@@ -67,31 +67,32 @@ your password"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:src="@drawable/sms3"/>
+            android:src="@drawable/lock"/>
 
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:orientation="vertical">
-            <EditText
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:textColor="#C8C4C4"
-                android:background="@null"
-                android:hint="via sms"
-                android:gravity="center"
-                android:layout_marginLeft="@dimen/_10sdp"/>
-
+            android:orientation="horizontal">
 
 
             <EditText
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:hint="+91 111*******99"
+                android:hint="*********"
                 android:background="@null"
                 android:textColor="@color/black"
-                android:layout_marginLeft="@dimen/_10sdp"    />
+                android:layout_marginLeft="@dimen/_10sdp" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="@dimen/_170sdp"
+                android:src="@drawable/eye"
+                app:tint="@color/black" />
+
+
 
 
 
@@ -102,7 +103,7 @@ your password"
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="@dimen/_80sdp"
+        android:layout_height="@dimen/_50sdp"
         android:layout_marginLeft="@dimen/_10sdp"
         android:layout_marginTop="@dimen/_20sdp"
         android:layout_marginRight="@dimen/_10sdp"
@@ -113,51 +114,55 @@ your password"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:src="@drawable/sms3" />
+            android:src="@drawable/sms" />
 
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:orientation="vertical">
+            android:orientation="horizontal">
 
             <EditText
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="@dimen/_10sdp"
                 android:background="@null"
-                android:hint="via Email"
-                android:textColor="#C8C4C4" />
-
-
-            <EditText
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="@dimen/_10sdp"
-                android:background="@null"
-                android:hint="tai******al02@gmail.com"
+                android:hint="*********"
                 android:textColor="@color/black" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="@dimen/_170sdp"
+                android:src="@drawable/eye"
+                app:tint="@color/black" />
+
 
 
         </LinearLayout>
 
     </LinearLayout>
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Remember me"
+        android:textSize="@dimen/_13sdp"
+        android:textColor="@color/black"
+        android:layout_gravity="center"/>
+
     <TextView
-        android:id="@+id/txtsign5"
+        android:id="@+id/txtcon"
         android:layout_width="@dimen/_280sdp"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:layout_marginTop="@dimen/_25sdp"
+        android:layout_marginTop="@dimen/_60sdp"
         android:background="@drawable/btn2"
         android:padding="@dimen/_10sdp"
         android:gravity="center"
         android:textColor="@color/white"
         android:text="continue "
         android:textSize="@dimen/_20sdp"/>
-
-
-
-
 
 
 
