@@ -5,27 +5,25 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.TextView;
+import android.widget.ImageView;
 
-public class MainActivity15 extends AppCompatActivity {
+public class MainActivity16 extends AppCompatActivity {
 
-    TextView txtbtn2;
+    ImageView img34;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main15);
+        setContentView(R.layout.activity_main16);
 
-        txtbtn2 = findViewById(R.id.txtbtn2);
+        img34 = findViewById(R.id.img34);
 
-        txtbtn2.setOnClickListener(new View.OnClickListener() {
+        img34.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(MainActivity15.this,MainActivity16.class);
+                Intent intent = new Intent(MainActivity16.this,MainActivity17.class);
                 startActivity(intent);
             }
         });
-
-
     }
 }

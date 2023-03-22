@@ -7,25 +7,22 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
 
-public class MainActivity15 extends AppCompatActivity {
-
-    TextView txtbtn2;
+public class MainActivity17 extends AppCompatActivity {
+    TextView txtdo;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main15);
+        setContentView(R.layout.activity_main17);
 
-        txtbtn2 = findViewById(R.id.txtbtn2);
+        txtdo = findViewById(R.id.txtdo);
 
-        txtbtn2.setOnClickListener(new View.OnClickListener() {
+        txtdo.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(MainActivity15.this,MainActivity16.class);
+                Intent intent =new Intent(MainActivity17.this,MainActivity18.class);
                 startActivity(intent);
             }
         });
-
-
     }
 }

@@ -12,6 +12,15 @@
         android:theme="@style/Theme.Hotel_project"
         tools:targetApi="31">
         <activity
+            android:name=".MainActivity18"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity17"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity16"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity15"
             android:exported="false" />
         <activity
