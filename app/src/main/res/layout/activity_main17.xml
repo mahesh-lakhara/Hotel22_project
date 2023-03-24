@@ -167,8 +167,8 @@ ALBATROSS "
                 android:layout_height="wrap_content"
                 android:text="You have Canceled Your Hotel Booking"
                 android:textColor="@color/black"
-                android:textSize="@dimen/_12sdp"
-                android:layout_marginLeft="@dimen/_10sdp"    />
+                android:textSize="@dimen/_8sdp"
+                android:layout_marginLeft="@dimen/_6sdp"/>
 
         </LinearLayout>
     </LinearLayout>

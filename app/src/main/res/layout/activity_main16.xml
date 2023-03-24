@@ -133,7 +133,7 @@
                     android:layout_height="wrap_content"
                     android:textColor="#FF9800"
                     android:text="$35"
-                    android:textSize="@dimen/_20sdp"
+                    android:textSize="@dimen/_15sdp"
                     android:textStyle="bold"
                     android:gravity="center"/>
 
@@ -243,7 +243,7 @@
                     android:layout_height="wrap_content"
                     android:textColor="#FF9800"
                     android:text="$30"
-                    android:textSize="@dimen/_20sdp"
+                    android:textSize="@dimen/_15sdp"
                     android:textStyle="bold"
                     android:gravity="center"/>
 
@@ -353,7 +353,7 @@
                     android:layout_height="wrap_content"
                     android:textColor="#FF9800"
                     android:text="$45"
-                    android:textSize="@dimen/_20sdp"
+                    android:textSize="@dimen/_15sdp"
                     android:textStyle="bold"
                     android:gravity="center"/>
 
@@ -463,7 +463,7 @@
                     android:layout_height="wrap_content"
                     android:textColor="#FF9800"
                     android:text="$29"
-                    android:textSize="@dimen/_20sdp"
+                    android:textSize="@dimen/_15sdp"
                     android:textStyle="bold"
                     android:gravity="center"/>
 
@@ -573,7 +573,7 @@
                     android:layout_height="wrap_content"
                     android:textColor="#FF9800"
                     android:text="$32"
-                    android:textSize="@dimen/_20sdp"
+                    android:textSize="@dimen/_15sdp"
                     android:textStyle="bold"
                     android:gravity="center"/>
 
@@ -683,7 +683,7 @@
                     android:layout_height="wrap_content"
                     android:textColor="#FF9800"
                     android:text="$27"
-                    android:textSize="@dimen/_20sdp"
+                    android:textSize="@dimen/_15sdp"
                     android:textStyle="bold"
                     android:gravity="center"/>
 
